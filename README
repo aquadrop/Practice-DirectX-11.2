@@ -1,0 +1,14 @@
+PhysicsEngine-DirectX
+=====================
+
+DirectX 11.2 project displaying Multi-object, implementing Wind and Collision dynamics
+
+--Phase 1 Demo is at https://www.youtube.com/watch?v=Xzv3FD8n6eM
+  Phase 1 is about multiple objects rendering and simple rotation kinematics
+
+--Phase 2 Demo is at https://www.youtube.com/watch?v=Fc7vDq4AfXY
+  Phase 2 is about texturing and complicated rotation kinematics, such as rotation in reference to another moving object.
+  A solar system is rendered to demonstrate this functionality.
+
+--Enjoy
+Jianwei Xu

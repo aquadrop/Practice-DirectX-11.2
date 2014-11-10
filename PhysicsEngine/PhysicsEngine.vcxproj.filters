@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>2bb9136e-e9bb-4f87-a915-b36aaa2a7b03</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>64851721-7e00-4c11-95b0-8d2a91b35769</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>2456a25e-f3b4-484e-8f8b-a81d748811f8</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Renderers">
+      <UniqueIdentifier>{529c0f8f-6153-45f5-94f3-b4a3ab36ddb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d9701d14-0e43-44c5-924f-9e3db81a3196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{bcca739a-0fe1-4872-a958-0662f70598f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loaders">
+      <UniqueIdentifier>{174fce94-672e-4aff-99f3-afb8bc1982b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bundles">
+      <UniqueIdentifier>{9638e11e-683d-4577-9a07-aa80e1fdd9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\SolarSystem">
+      <UniqueIdentifier>{1e3d7de8-adbb-4346-9ea2-7e92a73eb09a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="PhysicsEngineMain.cpp" />
+    <ClCompile Include="DirectXPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SampleFpsTextRenderer.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\PhysicsSceneRenderer.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardSphere.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardEllipsoid.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardCube.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsTextureSceneRenderer.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicLoader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicReaderWriter.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardRectangle.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardTriangle.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystem.cpp">
+      <Filter>Bundles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="PhysicsEngineMain.h" />
+    <ClInclude Include="DirectXPage.xaml.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SampleFpsTextRenderer.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\PhysicsSceneRenderer.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mass.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardSphere.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardEllipsoid.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardCube.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsTextureSceneRenderer.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLoader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicReaderWriter.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardRectangle.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardTriangle.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystem.h">
+      <Filter>Bundles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PhysicsEngine_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DirectXPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\reftexture.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="reftexture.dds" />
+    <Image Include="cellwall.dds" />
+    <Image Include="cat.dds" />
+    <Image Include="Assets\SolarSystem\earth.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\moon.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\sun.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\mercury.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\venus.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\Jupiter.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\jupiter_s1.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+    <Image Include="Assets\SolarSystem\universe.dds">
+      <Filter>Assets\SolarSystem</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
